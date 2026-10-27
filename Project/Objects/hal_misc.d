@@ -1,0 +1,9 @@
+.\objects\hal_misc.o: ..\Firmware\MM32F0140\HAL_Lib\Src\hal_misc.c
+.\objects\hal_misc.o: ..\Firmware\MM32F0140\HAL_Lib\Inc\hal_misc.h
+.\objects\hal_misc.o: ..\Firmware\MM32F0140\Include\types.h
+.\objects\hal_misc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_misc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hal_misc.o: ..\Firmware\MM32F0140\Include\reg_common.h
+.\objects\hal_misc.o: ..\Firmware\CMSIS\IAR_Core\core_cm0.h
+.\objects\hal_misc.o: ..\Firmware\CMSIS\IAR_Core\cmsis_compiler.h
+.\objects\hal_misc.o: ..\Firmware\CMSIS\IAR_Core\cmsis_armcc.h

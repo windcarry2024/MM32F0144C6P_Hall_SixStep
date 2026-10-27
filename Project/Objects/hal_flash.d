@@ -1,0 +1,10 @@
+.\objects\hal_flash.o: ..\Firmware\MM32F0140\HAL_Lib\Src\hal_flash.c
+.\objects\hal_flash.o: ..\Firmware\MM32F0140\HAL_Lib\Inc\hal_flash.h
+.\objects\hal_flash.o: ..\Firmware\MM32F0140\Include\types.h
+.\objects\hal_flash.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_flash.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hal_flash.o: ..\Firmware\MM32F0140\Include\reg_common.h
+.\objects\hal_flash.o: ..\Firmware\CMSIS\IAR_Core\core_cm0.h
+.\objects\hal_flash.o: ..\Firmware\CMSIS\IAR_Core\cmsis_compiler.h
+.\objects\hal_flash.o: ..\Firmware\CMSIS\IAR_Core\cmsis_armcc.h
+.\objects\hal_flash.o: ..\Firmware\MM32F0140\Include\reg_flash.h

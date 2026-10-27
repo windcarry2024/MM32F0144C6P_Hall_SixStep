@@ -1,0 +1,26 @@
+--cpu Cortex-M0
+".\objects\startup_mm32f0140_keil.o"
+".\objects\hal_adc.o"
+".\objects\hal_dma.o"
+".\objects\hal_exti.o"
+".\objects\hal_flash.o"
+".\objects\hal_gpio.o"
+".\objects\hal_misc.o"
+".\objects\hal_rcc.o"
+".\objects\hal_tim.o"
+".\objects\sysck.o"
+".\objects\ctrl.o"
+".\objects\led.o"
+".\objects\btn.o"
+".\objects\bldc.o"
+".\objects\adc.o"
+".\objects\hall.o"
+".\objects\comm.o"
+".\objects\spd.o"
+".\objects\main.o"
+".\objects\mm32f0140_it.o"
+".\objects\system_mm32f0140.o"
+--library_type=microlib --strict --scatter ".\Objects\MM32F0144C6P.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\MM32F0144C6P.map" -o .\Objects\MM32F0144C6P.axf
