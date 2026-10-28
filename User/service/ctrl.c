@@ -36,7 +36,7 @@ void ctrl_process(void)
                 {
                     /* CTRL°´¼üµ÷ËÙ */
                     ctrl_rpm_tar_tab_idx++;
-                    ctrl_rpm_tar_tab_idx = ctrl_rpm_tar_tab_idx > 2 ? 0 : ctrl_rpm_tar_tab_idx;
+                    ctrl_rpm_tar_tab_idx = ctrl_rpm_tar_tab_idx > CTRL_RPM_TAR_CNT ? 0 : ctrl_rpm_tar_tab_idx;
                     spd_rpm_tar = ctrl_rpm_tar_tab[ctrl_rpm_tar_tab_idx];
                     
                     ctrlFlag.keep = 1;
